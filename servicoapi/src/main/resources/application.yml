@@ -1,0 +1,17 @@
+#server:
+ # servlet:
+  # context-path: /servico/api
+
+#spring:
+ #application:
+  #name: servico-api
+  
+logging:
+  level:
+    com.github.joanersoncosta.servico_cliente_api: ${LOG_LEVEL:DEBUG}
+
+springdoc:
+ openapi:
+  title: Cliente API
+  description: Micro-Serviço de Cliente
+  version: 1.0.0
